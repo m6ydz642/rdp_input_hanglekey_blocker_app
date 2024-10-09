@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3AF8412CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3AF8402CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerAppApp.swift */; };
+		4E3AF8432CB6CA7D0075D414 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3AF8422CB6CA7D0075D414 /* ContentView.swift */; };
+		4E3AF8452CB6CA7E0075D414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3AF8442CB6CA7E0075D414 /* Assets.xcassets */; };
+		4E3AF8482CB6CA7E0075D414 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3AF8472CB6CA7E0075D414 /* Preview Assets.xcassets */; };
+		4E3AF8532CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3AF8522CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.swift */; };
+		4E3AF85D2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3AF85C2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.swift */; };
+		4E3AF85F2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3AF85E2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E3AF84F2CB6CA7E0075D414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E3AF8352CB6CA7D0075D414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E3AF83C2CB6CA7D0075D414;
+			remoteInfo = RDPHangleSwitchKeyInputBlockerApp;
+		};
+		4E3AF8592CB6CA7E0075D414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E3AF8352CB6CA7D0075D414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E3AF83C2CB6CA7D0075D414;
+			remoteInfo = RDPHangleSwitchKeyInputBlockerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E3AF83D2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDPHangleSwitchKeyInputBlockerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3AF8402CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPHangleSwitchKeyInputBlockerAppApp.swift; sourceTree = "<group>"; };
+		4E3AF8422CB6CA7D0075D414 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E3AF8442CB6CA7E0075D414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E3AF8472CB6CA7E0075D414 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E3AF8492CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RDPHangleSwitchKeyInputBlockerApp.entitlements; sourceTree = "<group>"; };
+		4E3AF84E2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDPHangleSwitchKeyInputBlockerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3AF8522CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPHangleSwitchKeyInputBlockerAppTests.swift; sourceTree = "<group>"; };
+		4E3AF8582CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDPHangleSwitchKeyInputBlockerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3AF85C2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPHangleSwitchKeyInputBlockerAppUITests.swift; sourceTree = "<group>"; };
+		4E3AF85E2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDPHangleSwitchKeyInputBlockerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E3AF83A2CB6CA7D0075D414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3AF84B2CB6CA7E0075D414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3AF8552CB6CA7E0075D414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E3AF8342CB6CA7D0075D414 = {
+			isa = PBXGroup;
+			children = (
+				4E3AF83F2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp */,
+				4E3AF8512CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests */,
+				4E3AF85B2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests */,
+				4E3AF83E2CB6CA7D0075D414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E3AF83E2CB6CA7D0075D414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E3AF83D2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp.app */,
+				4E3AF84E2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.xctest */,
+				4E3AF8582CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E3AF83F2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E3AF8402CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerAppApp.swift */,
+				4E3AF8422CB6CA7D0075D414 /* ContentView.swift */,
+				4E3AF8442CB6CA7E0075D414 /* Assets.xcassets */,
+				4E3AF8492CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerApp.entitlements */,
+				4E3AF8462CB6CA7E0075D414 /* Preview Content */,
+			);
+			path = RDPHangleSwitchKeyInputBlockerApp;
+			sourceTree = "<group>";
+		};
+		4E3AF8462CB6CA7E0075D414 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E3AF8472CB6CA7E0075D414 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E3AF8512CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E3AF8522CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.swift */,
+			);
+			path = RDPHangleSwitchKeyInputBlockerAppTests;
+			sourceTree = "<group>";
+		};
+		4E3AF85B2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E3AF85C2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.swift */,
+				4E3AF85E2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITestsLaunchTests.swift */,
+			);
+			path = RDPHangleSwitchKeyInputBlockerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E3AF83C2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3AF8622CB6CA7E0075D414 /* Build configuration list for PBXNativeTarget "RDPHangleSwitchKeyInputBlockerApp" */;
+			buildPhases = (
+				4E3AF8392CB6CA7D0075D414 /* Sources */,
+				4E3AF83A2CB6CA7D0075D414 /* Frameworks */,
+				4E3AF83B2CB6CA7D0075D414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDPHangleSwitchKeyInputBlockerApp;
+			productName = RDPHangleSwitchKeyInputBlockerApp;
+			productReference = 4E3AF83D2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E3AF84D2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3AF8652CB6CA7E0075D414 /* Build configuration list for PBXNativeTarget "RDPHangleSwitchKeyInputBlockerAppTests" */;
+			buildPhases = (
+				4E3AF84A2CB6CA7E0075D414 /* Sources */,
+				4E3AF84B2CB6CA7E0075D414 /* Frameworks */,
+				4E3AF84C2CB6CA7E0075D414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E3AF8502CB6CA7E0075D414 /* PBXTargetDependency */,
+			);
+			name = RDPHangleSwitchKeyInputBlockerAppTests;
+			productName = RDPHangleSwitchKeyInputBlockerAppTests;
+			productReference = 4E3AF84E2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E3AF8572CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3AF8682CB6CA7E0075D414 /* Build configuration list for PBXNativeTarget "RDPHangleSwitchKeyInputBlockerAppUITests" */;
+			buildPhases = (
+				4E3AF8542CB6CA7E0075D414 /* Sources */,
+				4E3AF8552CB6CA7E0075D414 /* Frameworks */,
+				4E3AF8562CB6CA7E0075D414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E3AF85A2CB6CA7E0075D414 /* PBXTargetDependency */,
+			);
+			name = RDPHangleSwitchKeyInputBlockerAppUITests;
+			productName = RDPHangleSwitchKeyInputBlockerAppUITests;
+			productReference = 4E3AF8582CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E3AF8352CB6CA7D0075D414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4E3AF83C2CB6CA7D0075D414 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4E3AF84D2CB6CA7E0075D414 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4E3AF83C2CB6CA7D0075D414;
+					};
+					4E3AF8572CB6CA7E0075D414 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4E3AF83C2CB6CA7D0075D414;
+					};
+				};
+			};
+			buildConfigurationList = 4E3AF8382CB6CA7D0075D414 /* Build configuration list for PBXProject "RDPHangleSwitchKeyInputBlockerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E3AF8342CB6CA7D0075D414;
+			productRefGroup = 4E3AF83E2CB6CA7D0075D414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E3AF83C2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp */,
+				4E3AF84D2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests */,
+				4E3AF8572CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E3AF83B2CB6CA7D0075D414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3AF8482CB6CA7E0075D414 /* Preview Assets.xcassets in Resources */,
+				4E3AF8452CB6CA7E0075D414 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3AF84C2CB6CA7E0075D414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3AF8562CB6CA7E0075D414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E3AF8392CB6CA7D0075D414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3AF8432CB6CA7D0075D414 /* ContentView.swift in Sources */,
+				4E3AF8412CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3AF84A2CB6CA7E0075D414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3AF8532CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3AF8542CB6CA7E0075D414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3AF85F2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITestsLaunchTests.swift in Sources */,
+				4E3AF85D2CB6CA7E0075D414 /* RDPHangleSwitchKeyInputBlockerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E3AF8502CB6CA7E0075D414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E3AF83C2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp */;
+			targetProxy = 4E3AF84F2CB6CA7E0075D414 /* PBXContainerItemProxy */;
+		};
+		4E3AF85A2CB6CA7E0075D414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E3AF83C2CB6CA7D0075D414 /* RDPHangleSwitchKeyInputBlockerApp */;
+			targetProxy = 4E3AF8592CB6CA7E0075D414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E3AF8602CB6CA7E0075D414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E3AF8612CB6CA7E0075D414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4E3AF8632CB6CA7E0075D414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RDPHangleSwitchKeyInputBlockerApp/RDPHangleSwitchKeyInputBlockerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RDPHangleSwitchKeyInputBlockerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S52426WVQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m6ydz642.RDPHangleSwitchKeyInputBlockerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4E3AF8642CB6CA7E0075D414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RDPHangleSwitchKeyInputBlockerApp/RDPHangleSwitchKeyInputBlockerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RDPHangleSwitchKeyInputBlockerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2S52426WVQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m6ydz642.RDPHangleSwitchKeyInputBlockerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4E3AF8662CB6CA7E0075D414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S52426WVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m6ydz642.RDPHangleSwitchKeyInputBlockerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDPHangleSwitchKeyInputBlockerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RDPHangleSwitchKeyInputBlockerApp";
+			};
+			name = Debug;
+		};
+		4E3AF8672CB6CA7E0075D414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S52426WVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m6ydz642.RDPHangleSwitchKeyInputBlockerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RDPHangleSwitchKeyInputBlockerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RDPHangleSwitchKeyInputBlockerApp";
+			};
+			name = Release;
+		};
+		4E3AF8692CB6CA7E0075D414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S52426WVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m6ydz642.RDPHangleSwitchKeyInputBlockerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RDPHangleSwitchKeyInputBlockerApp;
+			};
+			name = Debug;
+		};
+		4E3AF86A2CB6CA7E0075D414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2S52426WVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = m6ydz642.RDPHangleSwitchKeyInputBlockerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RDPHangleSwitchKeyInputBlockerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E3AF8382CB6CA7D0075D414 /* Build configuration list for PBXProject "RDPHangleSwitchKeyInputBlockerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3AF8602CB6CA7E0075D414 /* Debug */,
+				4E3AF8612CB6CA7E0075D414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3AF8622CB6CA7E0075D414 /* Build configuration list for PBXNativeTarget "RDPHangleSwitchKeyInputBlockerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3AF8632CB6CA7E0075D414 /* Debug */,
+				4E3AF8642CB6CA7E0075D414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3AF8652CB6CA7E0075D414 /* Build configuration list for PBXNativeTarget "RDPHangleSwitchKeyInputBlockerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3AF8662CB6CA7E0075D414 /* Debug */,
+				4E3AF8672CB6CA7E0075D414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3AF8682CB6CA7E0075D414 /* Build configuration list for PBXNativeTarget "RDPHangleSwitchKeyInputBlockerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3AF8692CB6CA7E0075D414 /* Debug */,
+				4E3AF86A2CB6CA7E0075D414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E3AF8352CB6CA7D0075D414 /* Project object */;
+}
